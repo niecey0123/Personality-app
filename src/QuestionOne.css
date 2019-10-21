@@ -1,0 +1,44 @@
+.box2{
+background-image: linear-gradient(to top, #bb2aec, #c55ee9, #cc83e5, #d2a5e1, #d6c5db);
+height: 100vw; 
+width: 100vw; 
+}
+ /* .card{
+  box-shadow: yellowgreen 8px 5px;
+  background-color: #f5f5f7 ;
+  width: 45%;
+  height: 400px;
+  margin-left: 25%;
+  margin-top: 10%;
+  border-radius: 5%;
+
+} */
+/* .card-title{
+  color: yellowgreen;
+  font-size: 25pt;
+}
+
+.selection{
+  width: 100%;
+  border: solid purple;
+  margin-top: 5%;
+}
+
+.list-group-item{
+  font-size: 14pt;
+}
+.list-group-item:hover{
+  background-color: lavender;
+
+}
+
+.btn{
+  margin-top: 4%;
+}  
+.card-subtitle{
+  font-size: 18pt; */
+/* 
+}  */
+/* form{
+  width: 400px;
+} */
