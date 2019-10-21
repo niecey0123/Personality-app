@@ -122,15 +122,14 @@ console.log(props.users);
                             Perfect Chemistry
                           </h5>
                           <p className="card-text">
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This content
-                            is a little bit longer.
+                          My boyfriend Tom and I matched in October 2013 and for weeks,
+                           he was afraid to meet up with me because we had such amazing chemistry online.
+                       
                           </p>
                           <p className="card-text">
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This content
-                            is a little bit longer.This content is a little bit
-                            longer.This content is a.
+                          We finally grabbed drinks at my favorite Midwestern spot in Brooklyn
+                          , where he said he would be ‘the creep ...
+                            
                             <a href="#" className="card-link">
 
                             <FontAwesomeIcon
@@ -155,7 +154,7 @@ console.log(props.users);
                           alt="young-couple"
                         />
                              <a className="ui purple ribbon label">
-                            Tom & Venessa
+                            Mark & Sabrina
                         </a>
                       </div>
                       <div className="col-md-8">
@@ -164,15 +163,14 @@ console.log(props.users);
                             Lady Of My Life
                           </h5>
                           <p className="card-text">
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This content
-                            is a little bit longer.
+                          My husband and I met here four years ago and I wouldn’t 
+                          have done things any differently. As soon 
+                          as I stumbled on Mark’s profile, 
                           </p>
                           <p className="card-text">
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This content
-                            is a little bit longer.This content is a little bit
-                            longer.This content is a.
+                          I instantly thought he was so handsome.I reached out 
+                          with a witty statement (that took me way too long to write) 
+                          ...
                             <a href="#" className="card-link">
 
                             <FontAwesomeIcon
@@ -196,7 +194,7 @@ console.log(props.users);
                           alt="young-couple"
                         />
                          <a className="ui purple ribbon label">
-                            Tom & Venessa
+                            Zach & Stephanie
                         </a>
                       
                       </div>
@@ -206,15 +204,15 @@ console.log(props.users);
                             Hearts Knit Together
                           </h5>
                           <p className="card-text">
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This content
-                            is a little bit longer.
+                          I online dated on and off for about three years.I had 
+                          so many train wreck dates that I eventually wrote a 
+                          book about my dating life.
+                           
                           </p>
                           <p className="card-text">
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This content
-                            is a little bit longer.This content is a little bit
-                            longer.This content is a.
+                          I decided then that I needed to take down my online 
+                          profiles and start to meet people in the real world.
+                          Just as I emptied ...
                             <a href="#" className="card-link">
                             <FontAwesomeIcon
                     className="arrow"
@@ -228,8 +226,53 @@ console.log(props.users);
                       </div>
                     </div>
                   </div>
+
+
+                  <div className="card mb-3 stories">
+                    <div className="row no-gutters">
+                      <div className="col-md-4 story">
+                      <img
+                          src="https://image.freepik.com/free-photo/african-american-couple-looking-through-finger-frame-smiling_1258-2739.jpg"
+                          className="card-img"
+                          alt="young-couple"
+                        />
+                         <a className="ui purple ribbon label">
+                            Sean & Zakhari
+                        </a>
+                      
+                      </div>
+                      <div className="col-md-8">
+                        <div className="card-body">
+                          <h5 className="card-title story-title">
+                            Picture Perfect
+                          </h5>
+                          <p className="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <p className="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                            <a href="#" className="card-link">
+                            <FontAwesomeIcon
+                    className="arrow"
+                    icon={faArrowCircleRight}
+                    size="1x"
+                  />
+                  </a>
+                          </p>
+                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
                 </div>
 
+              
                  
                 <div className="info2">
 
