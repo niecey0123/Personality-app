@@ -107,15 +107,14 @@ console.log(props.users);
                   <div className="card mb-3 stories">
                     <div className="row no-gutters">
                       <div className="col-md-4 story">
-                      <a className="ui black ribbon label">
-                            <i aria-hidden="true" className="hotel icon"></i>
-                            Tom & Venessa
-                        </a>
                         <img
                           src="https://www.lotuspointwellness.com/wp-content/uploads/2015/10/premaritalmain-300x300.jpg"
                           className="card-img"
                           alt="young-couple"
                         />
+                        <a className="ui purple ribbon label">
+                            Tom & Venessa
+                        </a>
                       </div>
                       <div className="col-md-8">
                         <div className="card-body">
@@ -155,6 +154,9 @@ console.log(props.users);
                           className="card-img"
                           alt="young-couple"
                         />
+                             <a className="ui purple ribbon label">
+                            Tom & Venessa
+                        </a>
                       </div>
                       <div className="col-md-8">
                         <div className="card-body">
@@ -193,6 +195,10 @@ console.log(props.users);
                           className="card-img"
                           alt="young-couple"
                         />
+                         <a className="ui purple ribbon label">
+                            Tom & Venessa
+                        </a>
+                      
                       </div>
                       <div className="col-md-8">
                         <div className="card-body">
