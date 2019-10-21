@@ -2,7 +2,7 @@ import React from 'react';
 import Particles from 'react-particles-js';
 import {Link} from 'react-router-dom';
 import '../Home.css';
-import { faUserCircle , faGrinHearts,faComments, faHeart, faEnvelope, faGift,faComment} from "@fortawesome/free-solid-svg-icons";
+import { faUserCircle , faGrinHearts,faComments, faHeart, faEnvelope, faGift, faComment, faArrowCircleRight} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import LovePoll from './LovePoll';
 
@@ -64,7 +64,7 @@ console.log(props.users);
         <div className="card container">
           <div className="card-body">
             <div className="ui segment">
-              <h3 className="ui header">Steps to find you match</h3>
+              <h3 className=" match-title">Steps to Find Your Match</h3>
               <div className="d-flex justify-content-around">
                 <div className="info">
                   <FontAwesomeIcon
@@ -74,6 +74,7 @@ console.log(props.users);
                   />
 
                   <h3 className="tag">Create Profile</h3>
+                  <p className="match-txt">Want others to know more about you? By registering now you can have access to multiple singles near you!</p>
                 </div>
                 <div className="info">
                   <FontAwesomeIcon
@@ -83,6 +84,7 @@ console.log(props.users);
                   />
 
                   <h3 className="tag">Find Matches</h3>
+                  <p className="match-txt">Based on your personality traits Uniquely You matches you with your better half. Find out what you share in commom before breaking the ice.</p>
                 </div>
                 <div className="info">
                   <FontAwesomeIcon
@@ -92,16 +94,23 @@ console.log(props.users);
                   />
 
                   <h3 className="tag2">Start Dating</h3>
+                  <p className="match-txt">Are the feelings Mutual? Send a Like, Message , or leave a comment on your matches proile to stay in contact.   </p>
                 </div>
               </div>
+
               <div className="ui section divider"></div>
               <h3 className="ui header"> Success Stories</h3>
               <h3 className="ui header2">Featured Profiles</h3>
+
               <div className="d-flex justify-content-around">
                 <div className="info2">
                   <div className="card mb-3 stories">
                     <div className="row no-gutters">
                       <div className="col-md-4 story">
+                      <a className="ui black ribbon label">
+                            <i aria-hidden="true" className="hotel icon"></i>
+                            Tom & Venessa
+                        </a>
                         <img
                           src="https://www.lotuspointwellness.com/wp-content/uploads/2015/10/premaritalmain-300x300.jpg"
                           className="card-img"
@@ -123,16 +132,63 @@ console.log(props.users);
                             natural lead-in to additional content. This content
                             is a little bit longer.This content is a little bit
                             longer.This content is a.
+                            <a href="#" className="card-link">
+
+                            <FontAwesomeIcon
+                    className="arrow"
+                    icon={faArrowCircleRight}
+                    size="1x"
+                  />
+                  </a>
+                          </p>
+                    
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="card mb-3 stories">
+                    <div className="row no-gutters">
+                      <div className="col-md-4 story">
+                      <img
+                          src="https://www.verywellmind.com/thmb/iBoNI6_E5AZ5Ex1-CJ7yiI_FkX4=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/92262434-56a5feb03df78cf7728ad130.jpg"
+                          className="card-img"
+                          alt="young-couple"
+                        />
+                      </div>
+                      <div className="col-md-8">
+                        <div className="card-body">
+                          <h5 className="card-title story-title">
+                            Lady Of My Life
+                          </h5>
+                          <p className="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.
+                          </p>
+                          <p className="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content
+                            is a little bit longer.This content is a little bit
+                            longer.This content is a.
+                            <a href="#" className="card-link">
+
+                            <FontAwesomeIcon
+                    className="arrow"
+                    icon={faArrowCircleRight}
+                    size="1x"
+                  />
+                  </a>
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <br></br>
+
                   <div className="card mb-3 stories">
                     <div className="row no-gutters">
                       <div className="col-md-4 story">
-                        <img
+                      <img
                           src="https://images.squarespace-cdn.com/content/v1/514a0556e4b0de06a6f0c60a/1369418829141-DVH5C4OQMF6SYYVE2D77/ke17ZwdGBToddI8pDm48kO0lMDxNL9k40kV8hU5yU-BZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVHhYkxqWDMMlq5YS25qC0mjrirlPhp-J3JewslZ2lNB1pG3kqknfvZFsSCDOsU_GUM/couple+massage.jpg"
                           className="card-img"
                           alt="young-couple"
@@ -153,12 +209,22 @@ console.log(props.users);
                             natural lead-in to additional content. This content
                             is a little bit longer.This content is a little bit
                             longer.This content is a.
+                            <a href="#" className="card-link">
+                            <FontAwesomeIcon
+                    className="arrow"
+                    icon={faArrowCircleRight}
+                    size="1x"
+                  />
+                  </a>
                           </p>
+                  
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+
+                 
                 <div className="info2">
 
                 <div className="card mb-3 feature">

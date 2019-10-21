@@ -34,7 +34,7 @@ class LovePoll extends Component{
     const { pollAnswers } = this.state
     return (
       <div>
-        <Poll question={pollQuestion} answers={pollAnswers} onVote={this.handleVote}customStyles={pollStyles1} />
+        <Poll question={pollQuestion} answers={pollAnswers} onVote={this.handleVote} customStyles={pollStyles1} />
       </div>
     );
   }
